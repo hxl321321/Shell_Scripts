@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # export LANG=zh_CN.UTF-8
 # DESCRIPTION: Nagios Plugin for checking status of network bond DEVICEs on linux.
 # AUTHOR: Xiaolong He
