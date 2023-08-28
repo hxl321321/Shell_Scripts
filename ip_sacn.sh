@@ -44,7 +44,7 @@ while [[ $FIRST = false || $SECOND = false || $START -gt $END ]]; do
         continue
     fi
 
-    read -p "Please enter the ending IP address to scan (for example: 255): " END
+    read -p "Please enter the ending IP address to scan (for example: 254): " END
     #对输入的终止地址做判断
     if [[ $END -ge 1 && $END -le 254 && $END =~ ^[1-9][0-9]{0,2}$ ]]; then
         SECOND=true
